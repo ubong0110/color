@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    text-align: center;
+    font-family: monospace;
+}
+li{
+    list-style: none;
+}
+h1{
+    margin: 1.5rem;
+    text-transform: uppercase;
+}
+.categories ul{
+    display: flex;
+}
+.categories li{
+    flex-grow: 1;
+    list-style: none;
+}
+.categories a {
+    display: block;
+    height: 2rem;
+    line-height: 0;
+    text-indent: -9999px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.categories li:nth-of-type(1) a{
+    background: black;
+}
+.categories li:nth-of-type(2) a{
+    background: yellow;
+}
+.categories li:nth-of-type(3) a{
+    background: cyan;
+}
+.categories li:nth-of-type(4) a{
+    background: green;
+}
+.categories li:nth-of-type(5) a{
+    background: red;
+}
+.categories li:nth-of-type(6) a{
+    background: blue;
+}
+.categories li:nth-of-type(7) a{
+    background: purple;
+}
+.categories li:nth-of-type(8) a{
+    background: pink;
+}
+.categories li:nth-of-type(9) a{
+    background: orange;
+}
+.categories li:nth-of-type(10) a{
+    background: gray;
+}
+.categories li:nth-of-type(11) a{
+    background: white;
+}
+.categories li:nth-of-type(12) a{
+    background: brown;
+}
+
+/* STYLE FOR THE INDEX PAGE */
+.main{
+    padding: 160px 0;
+}
+.main:nth-of-type(1){
+    background-color: whitesmoke;
+}
+.main:nth-of-type(2){
+    background-color: aquamarine;
+}
+.main:nth-of-type(3){
+    background-color: slategray;
+}
+.main:nth-of-type(4){
+    background-color: black;
+}
+.main:nth-of-type(5){
+    background-color: gold;
+}
+.main:nth-of-type(6){
+    background-color: hotpink;
+}
+.main:nth-of-type(7){
+    background-color: tomato;
+}
+.main:nth-of-type(8){
+    background-color: indigo;
+}
+.main:nth-of-type(9){
+    background-color: olivedrab;
+}
+.main:nth-of-type(10){
+    background-color: sienna;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main ul{
+    display: flex;
+    justify-content: center;
+}
+.main ul li{
+    margin: 0 1rem;
+}
+
+/* STYLE FOR THE YELLOW PAGE */
+.main1{
+    padding: 160px 0;
+}
+.main1:nth-of-type(1){
+    background-color: peachpuff;
+}
+.main1:nth-of-type(2){
+    background-color: papayawhip;
+}
+.main1:nth-of-type(3){
+    background-color: moccasin;
+}
+.main1:nth-of-type(4){
+    background-color: goldenrod;
+}
+.main1:nth-of-type(5){
+    background-color: gold;
+}
+.main1:nth-of-type(6){
+    background-color: khaki;
+}
+.main1:nth-of-type(7){
+    background-color: lemonchiffon;
+}
+.main1:nth-of-type(8){
+    background-color: palegoldenrod;
+}
+.main1:nth-of-type(9){
+    background-color: darkkhaki;
+}
+.main1:nth-of-type(10){
+    background-color: yellow;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main1 ul{
+    display: flex;
+    justify-content: center;
+}
+.main1 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE CYAN PAGE */
+.main2{
+    padding: 160px 0;
+}
+.main2:nth-of-type(1){
+    background-color: darkcyan;
+}
+.main2:nth-of-type(2){
+    background-color: cyan;
+}
+.main2:nth-of-type(3){
+    background-color: teal;
+}
+.main2:nth-of-type(4){
+    background-color: lightcyan;
+}
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main2 ul{
+    display: flex;
+    justify-content: center;
+}
+.main2 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE GREEN PAGE */
+.main3{
+    padding: 160px 0;
+}
+.main3:nth-of-type(1){
+    background-color: darkcyan;
+}
+.main3:nth-of-type(2){
+    background-color: olive;
+}
+.main3:nth-of-type(3){
+    background-color: olivedrab;
+}
+.main3:nth-of-type(4){
+    background-color: yellowgreen;
+}
+.main3:nth-of-type(5){
+    background-color: darkolivegreen;
+}
+.main3:nth-of-type(6){
+    background-color: greenyellow;
+}
+.main3:nth-of-type(7){
+    background-color: chartreuse;
+}
+.main3:nth-of-type(8){
+    background-color: darkgreen;
+}
+.main3:nth-of-type(9){
+    background-color: lawngreen;
+}
+.main3:nth-of-type(10){
+    background-color: green;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main3 ul{
+    display: flex;
+    justify-content: center;
+}
+.main3 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE GREEN PAGE */
+.main4{
+    padding: 160px 0;
+}
+.main4:nth-of-type(1){
+    background-color: darkred;
+}
+.main4:nth-of-type(2){
+    background-color: firebrick;
+}
+.main4:nth-of-type(3){
+    background-color: red;
+}
+.main4:nth-of-type(4){
+    background-color: indianred;
+}
+.main4:nth-of-type(5){
+    background-color: lightcoral;
+}
+.main4:nth-of-type(6){
+    background-color: salmon;
+}
+.main4:nth-of-type(7){
+    background-color: darksalmon;
+}
+.main4:nth-of-type(8){
+    background-color: lightsalmon;
+}
+.main4:nth-of-type(9){
+    background-color: crimson;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main4 ul{
+    display: flex;
+    justify-content: center;
+}
+.main4 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE BLUE PAGE */
+.main5{
+    padding: 160px 0;
+}
+.main5:nth-of-type(1){
+    background-color: deepskyblue;
+}
+.main5:nth-of-type(2){
+    background-color: blue;
+}
+.main5:nth-of-type(3){
+    background-color: cyan;
+}
+.main5:nth-of-type(4){
+    background-color: aquamarine;
+}
+.main5:nth-of-type(5){
+    background-color: turquoise;
+}
+.main5:nth-of-type(6){
+    background-color: mediumturquoise;
+}
+.main5:nth-of-type(7){
+    background-color: aqua;
+}
+.main5:nth-of-type(8){
+    background-color: paleturquoise;
+}
+.main5:nth-of-type(9){
+    background-color: lightcyan;
+}
+.main5:nth-of-type(10){
+    background-color: darkturquoise;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main5 ul{
+    display: flex;
+    justify-content: center;
+}
+.main5 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE PURPLE PAGE */
+.main6{
+    padding: 160px 0;
+}
+.main6:nth-of-type(1){
+    background-color: rebeccapurple;
+}
+.main6:nth-of-type(2){
+    background-color: magenta;
+}
+.main6:nth-of-type(3){
+    background-color: lavender;
+}
+.main6:nth-of-type(4){
+    background-color: darkslateblue;
+}
+.main6:nth-of-type(5){
+    background-color: slateblue;
+}
+.main6:nth-of-type(6){
+    background-color: mediumslateblue;
+}
+.main6:nth-of-type(7){
+    background-color: mediumpurple;
+}
+.main6:nth-of-type(8){
+    background-color: blueviolet;
+}
+.main6:nth-of-type(9){
+    background-color: indigo;
+}
+.main6:nth-of-type(10){
+    background-color: darkorchid;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main6 ul{
+    display: flex;
+    justify-content: center;
+}
+.main6 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE PINK PAGE */
+.main7{
+    padding: 160px 0;
+}
+.main7:nth-of-type(1){
+    background-color: mediumvioletred;
+}
+.main7:nth-of-type(2){
+    background-color: deeppink;
+}
+.main7:nth-of-type(3){
+    background-color: hotpink;
+}
+.main7:nth-of-type(4){
+    background-color: palevioletred;
+}
+.main7:nth-of-type(5){
+    background-color: pink;
+}
+.main7:nth-of-type(6){
+    background-color: lightpink;
+}
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main7 ul{
+    display: flex;
+    justify-content: center;
+}
+.main7 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE ORANGE PAGE */
+.main8{
+    padding: 160px 0;
+}
+.main8:nth-of-type(1){
+    background-color: tomato;
+}
+.main8:nth-of-type(2){
+    background-color: orangered;
+}
+.main8:nth-of-type(3){
+    background-color: coral;
+}
+.main8:nth-of-type(4){
+    background-color: lightsalmon;
+}
+.main8:nth-of-type(5){
+    background-color: darkorange;
+}
+.main8:nth-of-type(6){
+    background-color: orange;
+}
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main8 ul{
+    display: flex;
+    justify-content: center;
+}
+.main8 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE GRAY PAGE */
+.main9{
+    padding: 160px 0;
+}
+.main9:nth-of-type(1){
+    background-color: lightgray;
+}
+.main9:nth-of-type(2){
+    background-color: slategrey;
+}
+.main9:nth-of-type(3){
+    background-color: lightslategrey;
+}
+.main9:nth-of-type(4){
+    background-color: grey;
+}
+.main9:nth-of-type(5){
+    background-color: dimgrey;
+}
+.main9:nth-of-type(6){
+    background-color: darkslategrey;
+}
+.main9:nth-of-type(7){
+    background-color: darkgrey;
+}
+.main9:nth-of-type(8){
+    background-color: black;
+}
+.main9:nth-of-type(9){
+    background-color: dimgray;
+}
+.main9:nth-of-type(10){
+    background-color: gray;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main9 ul{
+    display: flex;
+    justify-content: center;
+}
+.main9 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE WHITE PAGE */
+.main10{
+    padding: 160px 0;
+}
+.main10:nth-of-type(1){
+    background-color: whitesmoke;
+}
+.main10:nth-of-type(2){
+    background-color: white;
+}
+.main10:nth-of-type(3){
+    background-color: snow;
+}
+.main10:nth-of-type(4){
+    background-color: mistyrose;
+}
+.main10:nth-of-type(5){
+    background-color: seashell;
+}
+.main10:nth-of-type(6){
+    background-color: linen;
+}
+.main10:nth-of-type(7){
+    background-color: antiquewhite;
+}
+.main10:nth-of-type(8){
+    background-color: oldlace;
+}
+.main10:nth-of-type(9){
+    background-color: floralwhite;
+}
+.main10:nth-of-type(10){
+    background-color: beige;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main10 ul{
+    display: flex;
+    justify-content: center;
+}
+.main10 ul li{
+    margin: 0 1rem;
+}
+/* STYLE FOR THE BROWN PAGE */
+.main11{
+    padding: 160px 0;
+}
+.main11:nth-of-type(1){
+    background-color: maroon;
+}
+.main11:nth-of-type(2){
+    background-color: brown;
+}
+.main11:nth-of-type(3){
+    background-color: rosybrown;
+}
+.main11:nth-of-type(4){
+    background-color: sienna;
+}
+.main11:nth-of-type(5){
+    background-color: saddlebrown;
+}
+.main11:nth-of-type(6){
+    background-color: chocolate;
+}
+.main11:nth-of-type(7){
+    background-color: sandybrown;
+}
+.main11:nth-of-type(8){
+    background-color: peru;
+}
+.main11:nth-of-type(9){
+    background-color: bisque;
+}
+.main11:nth-of-type(10){
+    background-color: burlywood;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.main11 ul{
+    display: flex;
+    justify-content: center;
+}
+.main11 ul li{
+    margin: 0 1rem;
+}
